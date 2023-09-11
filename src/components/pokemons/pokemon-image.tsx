@@ -1,7 +1,7 @@
 import { component$, useSignal, useTask$ } from '@builder.io/qwik';
 
 type Props = {
-  id: number;
+  id: number | string;
   size?: number;
   backImage?: boolean;
   isVisible?: boolean;
